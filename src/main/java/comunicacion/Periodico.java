@@ -29,7 +29,7 @@ public class Periodico extends Escrito {
     }
 
     public int palabrasTotales(int factor) {
-        return this.getPaginas() * factor;
+        return this.getPaginas() * factor * 10;
     }
 
     // GETS AND SETS

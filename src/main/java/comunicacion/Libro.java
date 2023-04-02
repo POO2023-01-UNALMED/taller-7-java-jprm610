@@ -32,7 +32,7 @@ public class Libro extends Escrito {
     }
 
     public int palabrasTotales(int factor) {
-        return this.getPaginas() * factor;
+        return this.getPaginas() * factor * 2;
     }
 
     // GETS AND SETS
